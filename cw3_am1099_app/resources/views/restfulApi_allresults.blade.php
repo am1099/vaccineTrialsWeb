@@ -1,0 +1,7 @@
+
+
+
+<pre>
+{{ $getTrialResults }}
+</pre>
+

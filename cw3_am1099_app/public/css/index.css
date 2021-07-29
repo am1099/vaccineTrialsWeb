@@ -1,0 +1,49 @@
+
+
+@media screen and (min-width: 601px) {
+
+  #title {
+    padding-top: 8px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 601px) {
+
+  #title {
+    padding-top: 8px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 5vw;
+    text-align: center;
+}
+
+}
+
+.center {
+    margin: auto;
+    width: auto;
+    padding: 5px;
+  }
+
+body{
+    text-align: center;
+    border-top: 2px solid rgb(12, 75, 17);
+
+  }
+
+  hr.solid {
+    border-top: 2px solid #999;
+  }
+
+  .chart {
+    width: 100%; 
+    min-height: 400px;
+  }
+  .row {
+    margin:0 !important;
+  }

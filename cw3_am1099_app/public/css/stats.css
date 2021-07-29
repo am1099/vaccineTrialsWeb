@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  h3 {
+    margin: 13px;
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+  
+  .box-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .stats {
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #ffffff;
+    border-right: 2px solid #ececec;
+    text-align: center;
+  }
+  
+  .stats .box-header {
+    background-color: #444343;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 4vw;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 8px;
+  }
+
+  @media screen and (min-width: 601px) {
+    .stats .box-header {
+      background-color: #444343;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.1vw;
+      height: 60px;
+      padding-top: 10px;
+      border-radius: 8px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .stats .box-header {
+      background-color: #444343;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 3vw;
+      height: 60px;
+      padding-top: 10px;
+      border-radius: 8px;
+    }
+  }
+  
+  .stats .box-content {
+    position: relative;
+    margin: 2% auto 15%;
+    width: 130px;
+    height: 130px;
+  }
+  
+  
+
+  @media screen and (min-width: 601px) {
+    .stats .box-content .num {
+      font-size: 3.5vw;
+      font-weight: bold;
+      color: #191d1c;
+      padding-top: 10px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .stats .box-content .num {
+      font-size: 10vw;
+      font-weight: bold;
+      color: #191d1c;
+      padding-top: 10px;
+    }
+  }
+  
