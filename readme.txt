@@ -44,7 +44,7 @@ To view the vaccine makers dashboard please register through the website making 
 
 NOTE: FOR TASK 2
 
-to test task 2: 
+To test task 2: 
 	To test the first part. please enter 'vaccine/all_result' in the url for the json response.
 	To test the second part. please enter 'vaccine/result_byGroup/{group}/byDose/{dose}' in the url for the json response. {group} -> enter either A or B && {dose} -> enter either 1 or 0.5
 
